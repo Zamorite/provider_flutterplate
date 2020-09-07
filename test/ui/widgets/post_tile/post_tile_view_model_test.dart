@@ -1,9 +1,9 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
-import 'package:provider_start/core/services/navigation/navigation_service.dart';
-import 'package:provider_start/locator.dart';
-import 'package:provider_start/ui/router.gr.dart';
-import 'package:provider_start/ui/widgets/stateful/post_tile/post_tile_view_model.dart';
+import 'package:flutterplate/core/services/navigation/navigation_service.dart';
+import 'package:flutterplate/locator.dart';
+import 'package:flutterplate/ui/router.gr.dart';
+import 'package:flutterplate/ui/widgets/stateful/post_tile/post_tile_view_model.dart';
 
 import '../../../data/mocks.dart';
 

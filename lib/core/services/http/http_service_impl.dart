@@ -2,11 +2,11 @@ import 'dart:io';
 
 import 'package:dio/dio.dart';
 import 'package:logging/logging.dart';
-import 'package:provider_start/core/exceptions/network_exception.dart';
-import 'package:provider_start/core/services/http/http_service.dart';
-import 'package:provider_start/core/utils/file_helper.dart';
-import 'package:provider_start/core/utils/network_utils.dart' as network_utils;
-import 'package:provider_start/locator.dart';
+import 'package:flutterplate/core/exceptions/network_exception.dart';
+import 'package:flutterplate/core/services/http/http_service.dart';
+import 'package:flutterplate/core/utils/file_helper.dart';
+import 'package:flutterplate/core/utils/network_utils.dart' as network_utils;
+import 'package:flutterplate/locator.dart';
 
 /// Helper service that abstracts away common HTTP Requests
 class HttpServiceImpl implements HttpService {

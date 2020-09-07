@@ -1,8 +1,8 @@
 import 'package:logging/logging.dart';
-import 'package:provider_start/core/exceptions/repository_exception.dart';
-import 'package:provider_start/core/models/post/post.dart';
-import 'package:provider_start/core/repositories/posts_repository/posts_repository.dart';
-import 'package:provider_start/locator.dart';
+import 'package:flutterplate/core/exceptions/repository_exception.dart';
+import 'package:flutterplate/core/models/post/post.dart';
+import 'package:flutterplate/core/repositories/posts_repository/posts_repository.dart';
+import 'package:flutterplate/locator.dart';
 import 'package:stacked/stacked.dart';
 
 class HomeViewModel extends BaseViewModel {

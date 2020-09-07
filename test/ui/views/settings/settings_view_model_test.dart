@@ -1,18 +1,18 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
-import 'package:provider_start/core/constant/local_keys.dart';
-import 'package:provider_start/core/models/alert_request/confirm_alert_request.dart';
-import 'package:provider_start/core/models/alert_response/confirm_alert_response.dart';
-import 'package:provider_start/core/models/snack_bar_request/confirm_snack_bar_request.dart';
-import 'package:provider_start/core/models/snack_bar_response/confirm_snack_bar_response.dart';
-import 'package:provider_start/core/services/app_settings/app_settings_service.dart';
-import 'package:provider_start/core/services/auth/auth_service.dart';
-import 'package:provider_start/core/services/dialog/dialog_service.dart';
-import 'package:provider_start/core/services/key_storage/key_storage_service.dart';
-import 'package:provider_start/core/services/navigation/navigation_service.dart';
-import 'package:provider_start/core/services/snackbar/snack_bar_service.dart';
-import 'package:provider_start/locator.dart';
-import 'package:provider_start/ui/views/settings/settings_view_model.dart';
+import 'package:flutterplate/core/constant/local_keys.dart';
+import 'package:flutterplate/core/models/alert_request/confirm_alert_request.dart';
+import 'package:flutterplate/core/models/alert_response/confirm_alert_response.dart';
+import 'package:flutterplate/core/models/snack_bar_request/confirm_snack_bar_request.dart';
+import 'package:flutterplate/core/models/snack_bar_response/confirm_snack_bar_response.dart';
+import 'package:flutterplate/core/services/app_settings/app_settings_service.dart';
+import 'package:flutterplate/core/services/auth/auth_service.dart';
+import 'package:flutterplate/core/services/dialog/dialog_service.dart';
+import 'package:flutterplate/core/services/key_storage/key_storage_service.dart';
+import 'package:flutterplate/core/services/navigation/navigation_service.dart';
+import 'package:flutterplate/core/services/snackbar/snack_bar_service.dart';
+import 'package:flutterplate/locator.dart';
+import 'package:flutterplate/ui/views/settings/settings_view_model.dart';
 
 class MockKeyStorageService extends Mock implements KeyStorageService {}
 

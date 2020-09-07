@@ -1,9 +1,9 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
-import 'package:provider_start/core/exceptions/repository_exception.dart';
-import 'package:provider_start/core/repositories/posts_repository/posts_repository.dart';
-import 'package:provider_start/locator.dart';
-import 'package:provider_start/ui/views/home/home_view_model.dart';
+import 'package:flutterplate/core/exceptions/repository_exception.dart';
+import 'package:flutterplate/core/repositories/posts_repository/posts_repository.dart';
+import 'package:flutterplate/locator.dart';
+import 'package:flutterplate/ui/views/home/home_view_model.dart';
 
 import '../../../data/mocks.dart';
 

@@ -1,9 +1,9 @@
 import 'package:logging/logging.dart';
-import 'package:provider_start/core/exceptions/repository_exception.dart';
-import 'package:provider_start/core/models/post/post.dart';
-import 'package:provider_start/core/models/user/user.dart';
-import 'package:provider_start/core/repositories/users_repository/users_repository.dart';
-import 'package:provider_start/locator.dart';
+import 'package:flutterplate/core/exceptions/repository_exception.dart';
+import 'package:flutterplate/core/models/post/post.dart';
+import 'package:flutterplate/core/models/user/user.dart';
+import 'package:flutterplate/core/repositories/users_repository/users_repository.dart';
+import 'package:flutterplate/locator.dart';
 import 'package:stacked/stacked.dart';
 
 class PostDetailsViewModel extends BaseViewModel {

@@ -2,7 +2,7 @@ import 'dart:convert' as convert;
 
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
-import 'package:provider_start/core/exceptions/network_exception.dart';
+import 'package:flutterplate/core/exceptions/network_exception.dart';
 
 void checkForNetworkExceptions(Response response) {
   if (response.statusCode != 200) {

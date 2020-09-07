@@ -1,14 +1,14 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
-import 'package:provider_start/core/data_sources/users/users_local_data_source.dart';
-import 'package:provider_start/core/data_sources/users/users_remote_data_source.dart';
-import 'package:provider_start/core/exceptions/cache_exception.dart';
-import 'package:provider_start/core/exceptions/network_exception.dart';
-import 'package:provider_start/core/exceptions/repository_exception.dart';
-import 'package:provider_start/core/repositories/users_repository/users_repository.dart';
-import 'package:provider_start/core/repositories/users_repository/users_repository_impl.dart';
-import 'package:provider_start/core/services/connectivity/connectivity_service.dart';
-import 'package:provider_start/locator.dart';
+import 'package:flutterplate/core/data_sources/users/users_local_data_source.dart';
+import 'package:flutterplate/core/data_sources/users/users_remote_data_source.dart';
+import 'package:flutterplate/core/exceptions/cache_exception.dart';
+import 'package:flutterplate/core/exceptions/network_exception.dart';
+import 'package:flutterplate/core/exceptions/repository_exception.dart';
+import 'package:flutterplate/core/repositories/users_repository/users_repository.dart';
+import 'package:flutterplate/core/repositories/users_repository/users_repository_impl.dart';
+import 'package:flutterplate/core/services/connectivity/connectivity_service.dart';
+import 'package:flutterplate/locator.dart';
 
 import '../../data/mocks.dart';
 

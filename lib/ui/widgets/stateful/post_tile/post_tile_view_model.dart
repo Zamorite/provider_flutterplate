@@ -1,7 +1,7 @@
-import 'package:provider_start/core/models/post/post.dart';
-import 'package:provider_start/core/services/navigation/navigation_service.dart';
-import 'package:provider_start/locator.dart';
-import 'package:provider_start/ui/router.gr.dart';
+import 'package:flutterplate/core/models/post/post.dart';
+import 'package:flutterplate/core/services/navigation/navigation_service.dart';
+import 'package:flutterplate/locator.dart';
+import 'package:flutterplate/ui/router.gr.dart';
 import 'package:stacked/stacked.dart';
 
 class PostTileViewModel extends BaseViewModel {

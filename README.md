@@ -1,4 +1,4 @@
-# provider_start
+# flutterplate
 
 A production ready flutter application template for the provider architecture.
 

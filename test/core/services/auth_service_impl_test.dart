@@ -1,8 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
-import 'package:provider_start/core/services/auth/auth_service.dart';
-import 'package:provider_start/core/services/auth/auth_service_impl.dart';
-import 'package:provider_start/locator.dart';
+import 'package:flutterplate/core/services/auth/auth_service.dart';
+import 'package:flutterplate/core/services/auth/auth_service_impl.dart';
+import 'package:flutterplate/locator.dart';
 
 import '../../data/mocks.dart';
 

@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:device_info/device_info.dart';
 import 'package:logging/logging.dart';
-import 'package:provider_start/core/services/hardware_info/hardware_info_service.dart';
+import 'package:flutterplate/core/services/hardware_info/hardware_info_service.dart';
 
 /// Service that is responsible for getting hardware device info
 class HardwareInfoServiceImpl implements HardwareInfoService {
