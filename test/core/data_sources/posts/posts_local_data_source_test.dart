@@ -1,12 +1,12 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
 import 'package:hive/hive.dart';
-import 'package:provider_start/core/constant/local_storage_keys.dart';
-import 'package:provider_start/core/data_sources/posts/posts_local_data_source.dart';
-import 'package:provider_start/core/exceptions/cache_exception.dart';
-import 'package:provider_start/core/models/post/post_h.dart';
-import 'package:provider_start/core/utils/file_helper.dart';
-import 'package:provider_start/locator.dart';
+import 'package:flutterplate/core/constant/local_storage_keys.dart';
+import 'package:flutterplate/core/data_sources/posts/posts_local_data_source.dart';
+import 'package:flutterplate/core/exceptions/cache_exception.dart';
+import 'package:flutterplate/core/models/post/post_h.dart';
+import 'package:flutterplate/core/utils/file_helper.dart';
+import 'package:flutterplate/locator.dart';
 
 import '../../../data/mocks.dart';
 

@@ -4,16 +4,16 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_platform_widgets/flutter_platform_widgets.dart';
 import 'package:provider/provider.dart';
-import 'package:provider_start/core/localization/localization.dart';
-import 'package:provider_start/core/managers/core_manager.dart';
-import 'package:provider_start/core/services/navigation/navigation_service.dart';
-import 'package:provider_start/locator.dart';
-import 'package:provider_start/logger.dart';
-import 'package:provider_start/provider_setup.dart';
-import 'package:provider_start/ui/router.gr.dart';
-import 'package:provider_start/ui/shared/themes.dart' as themes;
-import 'package:provider_start/local_setup.dart';
-import 'package:provider_start/ui/views/startup/start_up_view.dart';
+import 'package:flutterplate/core/localization/localization.dart';
+import 'package:flutterplate/core/managers/core_manager.dart';
+import 'package:flutterplate/core/services/navigation/navigation_service.dart';
+import 'package:flutterplate/locator.dart';
+import 'package:flutterplate/logger.dart';
+import 'package:flutterplate/provider_setup.dart';
+import 'package:flutterplate/ui/router.gr.dart';
+import 'package:flutterplate/ui/shared/themes.dart' as themes;
+import 'package:flutterplate/locale_setup.dart';
+import 'package:flutterplate/ui/views/startup/start_up_view.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

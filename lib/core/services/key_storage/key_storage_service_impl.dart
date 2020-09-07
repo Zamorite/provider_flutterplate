@@ -1,5 +1,5 @@
 import 'package:logging/logging.dart';
-import 'package:provider_start/core/services/key_storage/key_storage_service.dart';
+import 'package:flutterplate/core/services/key_storage/key_storage_service.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 /// Service that is responsible for storing/retrieving data in/from

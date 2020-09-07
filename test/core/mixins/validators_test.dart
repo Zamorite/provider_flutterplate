@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:provider_start/core/mixins/validators.dart';
+import 'package:flutterplate/core/mixins/validators.dart';
 
 void main() {
   Validators validators;

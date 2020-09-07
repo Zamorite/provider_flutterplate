@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:connectivity/connectivity.dart';
 import 'package:logging/logging.dart';
-import 'package:provider_start/core/enums/connectivity_status.dart';
-import 'package:provider_start/core/services/connectivity/connectivity_service.dart';
+import 'package:flutterplate/core/enums/connectivity_status.dart';
+import 'package:flutterplate/core/services/connectivity/connectivity_service.dart';
 
 class ConnectivityServiceImpl implements ConnectivityService {
   final _log = Logger('ConnectivityServiceImpl');

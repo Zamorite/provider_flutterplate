@@ -1,15 +1,15 @@
 import 'dart:async';
 
 import 'package:logging/logging.dart';
-import 'package:provider_start/core/data_sources/posts/posts_local_data_source.dart';
-import 'package:provider_start/core/data_sources/posts/posts_remote_data_source.dart';
-import 'package:provider_start/core/exceptions/cache_exception.dart';
-import 'package:provider_start/core/exceptions/network_exception.dart';
-import 'package:provider_start/core/exceptions/repository_exception.dart';
-import 'package:provider_start/core/models/post/post.dart';
-import 'package:provider_start/core/repositories/posts_repository/posts_repository.dart';
-import 'package:provider_start/core/services/connectivity/connectivity_service.dart';
-import 'package:provider_start/locator.dart';
+import 'package:flutterplate/core/data_sources/posts/posts_local_data_source.dart';
+import 'package:flutterplate/core/data_sources/posts/posts_remote_data_source.dart';
+import 'package:flutterplate/core/exceptions/cache_exception.dart';
+import 'package:flutterplate/core/exceptions/network_exception.dart';
+import 'package:flutterplate/core/exceptions/repository_exception.dart';
+import 'package:flutterplate/core/models/post/post.dart';
+import 'package:flutterplate/core/repositories/posts_repository/posts_repository.dart';
+import 'package:flutterplate/core/services/connectivity/connectivity_service.dart';
+import 'package:flutterplate/locator.dart';
 
 class PostsRepositoryImpl implements PostsRepository {
   final remoteDataSource = locator<PostsRemoteDataSource>();

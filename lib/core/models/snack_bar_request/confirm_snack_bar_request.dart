@@ -1,5 +1,5 @@
 import 'package:built_value/built_value.dart';
-import 'package:provider_start/core/models/snack_bar_request/snack_bar_request.dart';
+import 'package:flutterplate/core/models/snack_bar_request/snack_bar_request.dart';
 
 part 'confirm_snack_bar_request.g.dart';
 

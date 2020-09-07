@@ -1,5 +1,5 @@
 import 'package:built_value/built_value.dart';
-import 'package:provider_start/core/models/alert_response/alert_response.dart';
+import 'package:flutterplate/core/models/alert_response/alert_response.dart';
 
 part 'confirm_alert_response.g.dart';
 

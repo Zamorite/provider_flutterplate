@@ -1,5 +1,5 @@
-import 'package:provider_start/core/models/post/post.dart';
-import 'package:provider_start/core/models/user/user.dart';
+import 'package:flutterplate/core/models/post/post.dart';
+import 'package:flutterplate/core/models/user/user.dart';
 
 final mockPost1 = Post(
   (p) => p

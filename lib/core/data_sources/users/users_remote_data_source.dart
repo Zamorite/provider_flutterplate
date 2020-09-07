@@ -1,7 +1,7 @@
-import 'package:provider_start/core/constant/api_routes.dart';
-import 'package:provider_start/core/models/user/user.dart';
-import 'package:provider_start/core/services/http/http_service.dart';
-import 'package:provider_start/locator.dart';
+import 'package:flutterplate/core/constant/api_routes.dart';
+import 'package:flutterplate/core/models/user/user.dart';
+import 'package:flutterplate/core/services/http/http_service.dart';
+import 'package:flutterplate/locator.dart';
 
 abstract class UsersRemoteDataSource {
   Future<User> fetchUser(int uid);

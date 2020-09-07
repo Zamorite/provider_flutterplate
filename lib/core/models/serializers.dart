@@ -3,8 +3,8 @@ library serializers;
 import 'package:built_value/iso_8601_date_time_serializer.dart';
 import 'package:built_value/serializer.dart';
 import 'package:built_value/standard_json_plugin.dart';
-import 'package:provider_start/core/models/post/post.dart';
-import 'package:provider_start/core/models/user/user.dart';
+import 'package:flutterplate/core/models/post/post.dart';
+import 'package:flutterplate/core/models/user/user.dart';
 
 part 'serializers.g.dart';
 

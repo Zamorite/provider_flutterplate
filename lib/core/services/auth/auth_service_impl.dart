@@ -1,7 +1,7 @@
 import 'package:logging/logging.dart';
-import 'package:provider_start/core/exceptions/auth_exception.dart';
-import 'package:provider_start/core/models/user/user.dart';
-import 'package:provider_start/core/services/auth/auth_service.dart';
+import 'package:flutterplate/core/exceptions/auth_exception.dart';
+import 'package:flutterplate/core/models/user/user.dart';
+import 'package:flutterplate/core/services/auth/auth_service.dart';
 
 class AuthServiceImpl implements AuthService {
   final _log = Logger('AuthServiceImpl');

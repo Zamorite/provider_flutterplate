@@ -1,11 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_platform_widgets/flutter_platform_widgets.dart';
-import 'package:provider_start/core/localization/localization.dart';
-import 'package:provider_start/ui/shared/ui_helper.dart';
-import 'package:provider_start/ui/views/login/login_view_model.dart';
-import 'package:provider_start/ui/widgets/cupertino/cupertino_text_form_field.dart';
-import 'package:provider_start/ui/widgets/stateless/loading_animation.dart';
+import 'package:flutterplate/core/localization/localization.dart';
+import 'package:flutterplate/ui/shared/ui_helper.dart';
+import 'package:flutterplate/ui/views/login/login_view_model.dart';
+import 'package:flutterplate/ui/widgets/cupertino/cupertino_text_form_field.dart';
+import 'package:flutterplate/ui/widgets/stateless/loading_animation.dart';
 import 'package:stacked/stacked.dart';
 
 class LoginView extends StatefulWidget {
