@@ -42,5 +42,5 @@ android
 ios
 
 # Related to Build Runner
-*.g.dart
-*.gr.dart
+# *.g.dart
+# *.gr.dart
